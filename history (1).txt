@@ -1,0 +1,71 @@
+   0 pwd
+   1 cd /
+   2 ls
+   3 cd home
+   4 mkdir animals
+   5 ls
+   6 cd animals
+   7 mkdir dogs
+   8 mkdir cats
+   9 mkdir fish
+  10 ls
+  11 cd cats
+  12 touch garfield.txt
+  13 ls
+  14 cd ..
+  15 cd dogs
+  16 touch pluto.txt
+  17 ls
+  18 cd /home
+  19 tree
+  20 mkdir planets
+  21 ls
+  22 cd ..
+  23 cd opt
+  24 touch mercury.txt venus.txt mars.txt
+  25 ls
+  26 mv /opt/mars.txt /home/planets
+  27 ls -l /planets
+  28 cd /
+  29 tree
+  30 cd/home
+  31 cd /home
+  32 tree
+  33 cd..
+  34 cd ..
+  35 ls
+  36 cd /opt
+  37 ls
+  38 mv /opt/mercury.txt /home/planets
+  39 mv /opt/venus.txt /home/planets
+  40 cd ..
+  41 cd /home
+  42  tree
+  43 cd ..
+  44 cd /tmp
+  45 touch adam.txt
+  46 cd ..
+  47 cd /home
+  48 mkdir humans
+  49 cd ..
+  50 cd /tmp
+  51 cp /tmp/adam.txt /home/humans
+  52 cd ..
+  53 cd /home
+  54 tree
+  55 cd ..
+  56 cd /tmp 
+  57 touch evA
+  58 ls
+  59 touch evA.txt
+  60 ls
+  61 mv /tmp/evA.txt /opt/eve.txt
+  62 cd ..
+  63 cd /opt
+  64 ls
+  65 mv /opt/eve.txt /home/humans
+  66 cd ..
+  67 cd /home
+  68 ls
+  69 tree
+  70 history > history.txt
